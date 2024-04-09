@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /*width:35%;*/
+    margin: auto;
+}
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.forgot-password {
+    text-align: center;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /*width:35%;*/
+    margin: auto;
+}
+
+.register-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.register-container h2 {
+    text-align: center;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.register-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.nav-index{
+    float: left;
+    text-align: right;
+    position:relative;
+    width: 96%;
+    padding: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    background: #2050CB;
+    ;
+}
+.nav-index a {
+    padding: 15px; /* Ajusta el relleno en lugar de especificar un ancho */
+    border-radius: 5px;
+    background: #7393E5;
+    text-decoration: none; /* Esta línea evita la subrayado del enlace */
+    color: rgb(248, 245, 245); /* Agregar esta regla para restaurar el color original del texto */
+}
+.nav-index {
+    display: flex; /* Usamos flexbox para alinear elementos */
+    align-items:center; /* Centramos verticalmente los elementos */
+    
+}
+
+.nav-left {
+    display: flex;
+    margin-right: auto; /* Empuja este contenedor a la izquierda */
+    justify-content: center;
+}
+
+.nav-right {
+    display: flex; /* Usamos flexbox para alinear elementos */
+}
+
+.nav-right a {
+    margin-left: 10px; /* Añade un margen entre los enlaces */
+}
+.nav-index a:hover{
+    background: #2CA49D;
+    color: rgb(248, 245, 245); /* Agregar esta regla para restaurar el color original del texto */
+}
+.nav-left img {
+    width: 20px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.cancelar{
+    margin-top: 10px;
+    text-align: center;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f80505;
+    color: rgb(248, 245, 245);
+    cursor: pointer;
+}
+.cancelar a {
+    text-decoration: none; /* Esta línea evita la subrayado del enlace */
+    color: rgb(248, 245, 245); /* Agregar esta regla para restaurar el color original del texto */
+}
+
+.cancelar:hover{
+    background-color:#e60303;
+}
+.cancelar:hover {
+    background-color: #e60303;
+    color: rgb(248, 245, 245); /* Cambiar el color del texto al pasar el mouse */
+}
+
